@@ -5,10 +5,7 @@ import java.time.LocalDateTime;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,7 +19,7 @@ import lombok.Setter;
 public class Post {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue
     private Long id;
 
     private String title;
@@ -32,8 +29,5 @@ public class Post {
 
     private LocalDateTime createdAt;
 
-    @ManyToOne
-    @JoinColumn(name="account_id", referencedColumnName = "id", nullable = true)
-    private Account account;
     
 }
