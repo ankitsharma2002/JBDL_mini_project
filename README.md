@@ -13,6 +13,12 @@
 
 <img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/397ff4d0-2b6d-4a31-b305-b42f3b3bd574" />
 
+#### Current Code
 **S12L01 - Spring Boot 2.7.x to Spring boot 3.x.x migrations**
 
-**Image In Progress**
+**Functionality**
+**1. Home read vlog**
+**2. Register and login**
+**3. After login you can add post and edit post**
+**4. You can apply pagination filter**
+<img width="1918" height="962" alt="image" src="https://github.com/user-attachments/assets/4e7db152-2b83-4804-940d-49cc845faabb" />
